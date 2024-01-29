@@ -1,4 +1,4 @@
-name: Node.js test
+name: Docker image CI/CD
 
 on:
   push:
