@@ -251,6 +251,7 @@ function parseQuery(query, substitutions)
         doc.pipeline = docs[0]
 
         console.log("pipeline: " + JSON.stringify(doc.pipeline));
+
         // If we have 2 top level args, second is agg options
         if ( docs.length == 2 )
         {
@@ -271,6 +272,7 @@ function parseQuery(query, substitutions)
                     }
                 })
           }
+
         console.log("parsed pipeline: " + JSON.stringify(doc.pipeline));
       }
       else
