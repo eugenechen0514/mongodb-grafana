@@ -9,6 +9,7 @@ on:
 
 env:
   NODE_ENV: github
+  DOCKER_IMAGE_NAME: eugenechen0514/grafana-mongodb-proxy
 
 jobs:
   build:
