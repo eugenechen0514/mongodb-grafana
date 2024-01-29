@@ -1,6 +1,7 @@
 FROM chrismatic/grafana-mongodb-proxy:latest
 
 RUN npm install
+
 RUN npm build
 
 COPY . .
