@@ -1,0 +1,1 @@
+FROM chrismatic/grafana-mongodb-proxy:latest
