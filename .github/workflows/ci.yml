@@ -21,7 +21,7 @@ jobs:
           - '{ "tag_prefix": "armv8", "platforms": "linux/arm/v8" }'
           - '{ "tag_prefix": "amd64", "platforms": "linux/amd64" }'
     steps:
-    - name: Prepare
+      - name: Prepare
         id: prep
         run: |
           # Determine the Docker container version.
